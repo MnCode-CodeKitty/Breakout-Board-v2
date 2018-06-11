@@ -3,7 +3,7 @@
   (general
     (links 16)
     (no_connects 4)
-    (area 136.789396 110.576596 176.494204 150.281404)
+    (area 136.789396 105.4426 176.494204 150.48)
     (thickness 1.6)
     (drawings 2)
     (tracks 31)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ./))
   )
 
   (net 0 "")
@@ -792,8 +792,8 @@
   (gr_circle (center 156.6418 130.429) (end 149.1742 112.1156) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 163.1315 114.5226) (end 163.2144 114.5226) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 163.1315 122.1426) (end 154.7174 122.1426) (width 0.25) (layer B.Cu) (net 3) (status 400000))
-  (segment (start 146.85772 126.76632) (end 145.4404 125.349) (width 0.25) (layer B.Cu) (net 3) (tstamp 5B1EBA78) (status 800000))
+  (segment (start 163.1315 122.1426) (end 154.7174 122.1426) (width 0.25) (layer B.Cu) (net 3))
+  (segment (start 146.85772 126.76632) (end 145.4404 125.349) (width 0.25) (layer B.Cu) (net 3) (tstamp 5B1EBA78))
   (segment (start 151.18588 126.76632) (end 146.85772 126.76632) (width 0.25) (layer B.Cu) (net 3) (tstamp 5B1EBA75))
   (segment (start 153.1112 124.841) (end 151.18588 126.76632) (width 0.25) (layer B.Cu) (net 3) (tstamp 5B1EBA73))
   (segment (start 153.1112 123.7488) (end 153.1112 124.841) (width 0.25) (layer B.Cu) (net 3) (tstamp 5B1EBA70))
