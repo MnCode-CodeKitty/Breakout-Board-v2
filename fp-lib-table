@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Trinket-m0)(type KiCad)(uri "$(KIPRJMOD)/Trinket-m0.pretty")(options "")(descr ""))
+  (lib (name nano-breakout-master)(type KiCad)(uri "$(KIPRJMOD)/nano-breakout-master/nano-breakout-master")(options "")(descr ""))
+)
