@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Code Kitty Trinket m0 Breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -73,11 +74,11 @@ Text GLabel 4000 3123 0    39   Input ~ 0
 VCC
 Text GLabel 4000 3223 0    39   Input ~ 0
 GND
-Text GLabel 5100 3223 2    39   Input ~ 0
+Text GLabel 5100 3223 2    39   Output ~ 0
 LSERVO
-Text GLabel 5100 3423 2    39   Input ~ 0
+Text GLabel 5100 3423 2    39   Output ~ 0
 RSERVO
-Text GLabel 5100 3323 2    39   Input ~ 0
+Text GLabel 4000 3423 0    39   Output ~ 0
 BUZZ
 Text Notes 7940 4438 0    197  ~ 0
 SERVOS\n
@@ -95,20 +96,7 @@ Text GLabel 8750 3175 0    39   Input ~ 0
 GND
 Text Notes 6025 2975 0    197  ~ 0
 SPEAKER
-$Comp
-L SPEAKER SP1
-U 1 1 5B1A78C6
-P 7325 3350
-F 0 "SP1" H 7225 3600 50  0000 C CNN
-F 1 "PIEZO" H 7225 3100 50  0000 C CNN
-F 2 "Buzzers_Beepers:Buzzer_Murata_PKMCS0909E4000-R1" H 7325 3350 50  0001 C CNN
-F 3 "" H 7325 3350 50  0000 C CNN
-	1    7325 3350
-	1    0    0    -1  
-$EndComp
-Text GLabel 6050 3250 0    39   Input ~ 0
-BUZZ
-Text GLabel 6050 3600 0    39   Input ~ 0
+Text GLabel 7025 3450 0    39   Input ~ 0
 GND
 $Comp
 L CONN_01X03 P3
@@ -128,25 +116,6 @@ SENS
 Text Notes 8000 2950 0    197  ~ 0
 SENSOR
 $Comp
-L R R1
-U 1 1 5B1A78C9
-P 6475 3250
-F 0 "R1" V 6555 3250 50  0000 C CNN
-F 1 "1K" V 6475 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6405 3250 50  0001 C CNN
-F 3 "" H 6475 3250 50  0000 C CNN
-	1    6475 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6050 3600 7025 3600
-Wire Wire Line
-	7025 3600 7025 3450
-Wire Wire Line
-	6625 3250 7025 3250
-Wire Wire Line
-	6050 3250 6325 3250
-$Comp
 L Conn_01x02 J2
 U 1 1 5B1AB1F8
 P 6600 4700
@@ -163,10 +132,10 @@ Text GLabel 6400 4700 0    60   Input ~ 0
 Touch
 Text GLabel 6400 4800 0    60   Input ~ 0
 GND
-Text GLabel 4000 3423 0    39   Input ~ 0
+Text GLabel 5100 3323 2    39   Input ~ 0
 Touch
 $Comp
-L Trinket-m0 m1
+L Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout m1
 U 1 1 5B1A46EE
 P 4550 3323
 F 0 "m1" H 4550 3073 60  0000 C CNN
@@ -197,4 +166,21 @@ Text GLabel 8051 4789 0    39   Input ~ 0
 VCC
 Text GLabel 8750 3275 0    39   Input ~ 0
 VCC
+Wire Wire Line
+	7026 3451 7026 3452
+$Comp
+L SPEAKER SP1
+U 1 1 5B1A78C6
+P 7325 3350
+F 0 "SP1" H 7225 3600 50  0000 C CNN
+F 1 "PIEZO" H 7225 3100 50  0000 C CNN
+F 2 "Buzzers_Beepers:Buzzer_Murata_PKMCS0909E4000-R1" H 7325 3350 50  0001 C CNN
+F 3 "" H 7325 3350 50  0000 C CNN
+	1    7325 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 3123 2    39   Input ~ 0
+VCC
+Text GLabel 7025 3250 0    39   Output ~ 0
+BUZZ
 $EndSCHEMATC

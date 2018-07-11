@@ -64,11 +64,11 @@ X 2 2 -300 -100 200 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout
+# Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout
 #
-DEF Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout m0 0 40 Y Y 1 F N
+DEF Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout m0 0 40 Y Y 1 F N
 F0 "m0" 0 -300 60 H V C CNN
-F1 "Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout" 0 350 60 H V C CNN
+F1 "Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout" 0 350 60 H V C CNN
 F2 "" -300 150 60 H I C CNN
 F3 "" -300 150 60 H I C CNN
 DRAW

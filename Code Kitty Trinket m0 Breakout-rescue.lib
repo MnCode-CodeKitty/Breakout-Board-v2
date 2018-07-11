@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout
+#
+DEF Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout m0 0 40 Y Y 1 F N
+F0 "m0" 0 -300 60 H V C CNN
+F1 "Trinket-m0-RESCUE-Code_Kitty_Trinket_m0_Breakout-RESCUE-Code_Kitty_Trinket_m0_Breakout" 0 350 60 H V C CNN
+F2 "" -300 150 60 H I C CNN
+F3 "" -300 150 60 H I C CNN
+DRAW
+S -350 300 350 -250 0 1 0 N
+X Bat 1 -550 200 200 R 50 50 1 1 w
+X Gnd 2 -550 100 200 R 50 50 1 1 I
+X 4/A4 3 -550 0 200 R 50 50 1 1 I
+X 3/A3 4 -550 -100 200 R 50 50 1 1 O
+X RESET 5 -550 -200 200 R 50 50 1 1 N
+X USB 6 550 200 200 L 50 50 1 1 W
+X 0/A2 7 550 100 200 L 50 50 1 1 B
+X 1/A0 8 550 0 200 L 50 50 1 1 I
+X 2/A1 9 550 -100 200 L 50 50 1 1 B
+X 3V3 10 550 -200 200 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library
